@@ -173,11 +173,10 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python
-
+.venv/
 ny_taxi_postgres_data/
-
-# Ignorar arquivos de dados brutos
+pgadmin_data/
 *.csv
 *.csv.gz
 *.parquet
+.ipynb_checkpoints/
